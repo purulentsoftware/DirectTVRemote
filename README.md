@@ -9,3 +9,4 @@ A rough implementation of a directv remote.  This uses the directv network proto
 
 This app searches for directv boxes on the network that have the network controls setting on. If found you can create a name for the directv box and then do all the basic controls you can do with a regular remote.
 
+This app is using glyphish's 200 free icons http://www.glyphish.com
