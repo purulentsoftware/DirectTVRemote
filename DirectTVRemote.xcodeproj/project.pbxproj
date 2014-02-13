@@ -23,6 +23,22 @@
 		83721151175E600B00D60D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8372112C175E600B00D60D7A /* Foundation.framework */; };
 		83721159175E600B00D60D7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83721157175E600B00D60D7A /* InfoPlist.strings */; };
 		8372115C175E600B00D60D7A /* DirectTVRemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372115B175E600B00D60D7A /* DirectTVRemoteTests.m */; };
+		83721167175E6B9300D60D7A /* UIRecieverLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 83721166175E6B9300D60D7A /* UIRecieverLoader.m */; };
+		8372116A175E80B100D60D7A /* UIControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83721169175E80B100D60D7A /* UIControllerView.m */; };
+		8372116E17622D9300D60D7A /* NSDVR.m in Sources */ = {isa = PBXBuildFile; fileRef = 8372116D17622D9300D60D7A /* NSDVR.m */; };
+		837211711762988B00D60D7A /* NSDVRSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 837211701762988B00D60D7A /* NSDVRSettings.m */; };
+		837211741762EE5A00D60D7A /* UISettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837211731762EE5A00D60D7A /* UISettingsView.m */; };
+		83A2B662176ED7A00072623A /* NSDVRGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A2B661176ED7A00072623A /* NSDVRGroup.m */; };
+		83A2B665177027630072623A /* NSDVRConnectionTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A2B664177027630072623A /* NSDVRConnectionTester.m */; };
+		83A2B66A17702C7B0072623A /* UIAddDVRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A2B66917702C7B0072623A /* UIAddDVRViewController.m */; };
+		83D424001767A1F000416906 /* flatremotestmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D423FF1767A1F000416906 /* flatremotestmall.png */; };
+		83D424021767B3C100416906 /* flatremnobotesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D424011767B3C100416906 /* flatremnobotesmall.png */; };
+		83D424041767C23400416906 /* flatremotesmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D424031767C23400416906 /* flatremotesmall.png */; };
+		83D4240617691D1700416906 /* flatremotetransparentsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D4240517691D1700416906 /* flatremotetransparentsmall.png */; };
+		83D42409176A1B8200416906 /* flatremotetransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D42407176A1B8200416906 /* flatremotetransparent.png */; };
+		83D4240A176A1B8200416906 /* flatremotetransparent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D42408176A1B8200416906 /* flatremotetransparent@2x.png */; };
+		83D4240D176A1C8E00416906 /* 69-display.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D4240B176A1C8E00416906 /* 69-display.png */; };
+		83D42411176A1D4000416906 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D4240F176A1D4000416906 /* 19-gear.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +74,33 @@
 		83721158175E600B00D60D7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8372115A175E600B00D60D7A /* DirectTVRemoteTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectTVRemoteTests.h; sourceTree = "<group>"; };
 		8372115B175E600B00D60D7A /* DirectTVRemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectTVRemoteTests.m; sourceTree = "<group>"; };
+		83721165175E6B9300D60D7A /* UIRecieverLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRecieverLoader.h; sourceTree = "<group>"; };
+		83721166175E6B9300D60D7A /* UIRecieverLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRecieverLoader.m; sourceTree = "<group>"; };
+		83721168175E80B100D60D7A /* UIControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIControllerView.h; sourceTree = "<group>"; };
+		83721169175E80B100D60D7A /* UIControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIControllerView.m; sourceTree = "<group>"; };
+		8372116B175F856500D60D7A /* JSONDictionaryExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDictionaryExtensions.h; sourceTree = "<group>"; };
+		8372116C17622D9300D60D7A /* NSDVR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDVR.h; sourceTree = "<group>"; };
+		8372116D17622D9300D60D7A /* NSDVR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDVR.m; sourceTree = "<group>"; };
+		8372116F1762988B00D60D7A /* NSDVRSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDVRSettings.h; sourceTree = "<group>"; };
+		837211701762988B00D60D7A /* NSDVRSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDVRSettings.m; sourceTree = "<group>"; };
+		837211721762EE5A00D60D7A /* UISettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISettingsView.h; sourceTree = "<group>"; };
+		837211731762EE5A00D60D7A /* UISettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISettingsView.m; sourceTree = "<group>"; };
+		83A2B660176ED7A00072623A /* NSDVRGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDVRGroup.h; sourceTree = "<group>"; };
+		83A2B661176ED7A00072623A /* NSDVRGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDVRGroup.m; sourceTree = "<group>"; };
+		83A2B663177027630072623A /* NSDVRConnectionTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDVRConnectionTester.h; sourceTree = "<group>"; };
+		83A2B664177027630072623A /* NSDVRConnectionTester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDVRConnectionTester.m; sourceTree = "<group>"; };
+		83A2B66817702C7B0072623A /* UIAddDVRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAddDVRViewController.h; sourceTree = "<group>"; };
+		83A2B66917702C7B0072623A /* UIAddDVRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAddDVRViewController.m; sourceTree = "<group>"; };
+		83D423FF1767A1F000416906 /* flatremotestmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flatremotestmall.png; sourceTree = "<group>"; };
+		83D424011767B3C100416906 /* flatremnobotesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flatremnobotesmall.png; sourceTree = "<group>"; };
+		83D424031767C23400416906 /* flatremotesmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flatremotesmall.png; sourceTree = "<group>"; };
+		83D4240517691D1700416906 /* flatremotetransparentsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flatremotetransparentsmall.png; sourceTree = "<group>"; };
+		83D42407176A1B8200416906 /* flatremotetransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flatremotetransparent.png; sourceTree = "<group>"; };
+		83D42408176A1B8200416906 /* flatremotetransparent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flatremotetransparent@2x.png"; sourceTree = "<group>"; };
+		83D4240B176A1C8E00416906 /* 69-display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "69-display.png"; sourceTree = "<group>"; };
+		83D4240F176A1D4000416906 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		83D42413176BD27F00416906 /* UICustomAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICustomAlert.h; sourceTree = "<group>"; };
+		83D42414176BD27F00416906 /* UICustomAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICustomAlert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,12 +160,27 @@
 		83721130175E600B00D60D7A /* DirectTVRemote */ = {
 			isa = PBXGroup;
 			children = (
+				83A2B66717702C310072623A /* ViewsControllers */,
+				83A2B666177027740072623A /* DVR */,
+				8372116B175F856500D60D7A /* JSONDictionaryExtensions.h */,
 				83721139175E600B00D60D7A /* UIViewControllerAppDelegate.h */,
 				8372113A175E600B00D60D7A /* UIViewControllerAppDelegate.m */,
 				83721142175E600B00D60D7A /* MainStoryboard.storyboard */,
-				83721145175E600B00D60D7A /* UIViewControllerViewController.h */,
-				83721146175E600B00D60D7A /* UIViewControllerViewController.m */,
+				83721165175E6B9300D60D7A /* UIRecieverLoader.h */,
+				83721166175E6B9300D60D7A /* UIRecieverLoader.m */,
+				83D42413176BD27F00416906 /* UICustomAlert.h */,
+				83D42414176BD27F00416906 /* UICustomAlert.m */,
 				83721131175E600B00D60D7A /* Supporting Files */,
+				83D42407176A1B8200416906 /* flatremotetransparent.png */,
+				83D42408176A1B8200416906 /* flatremotetransparent@2x.png */,
+				83D4240F176A1D4000416906 /* 19-gear.png */,
+				83D4240517691D1700416906 /* flatremotetransparentsmall.png */,
+				83D4240B176A1C8E00416906 /* 69-display.png */,
+				83D424011767B3C100416906 /* flatremnobotesmall.png */,
+				83D424031767C23400416906 /* flatremotesmall.png */,
+				8372116F1762988B00D60D7A /* NSDVRSettings.h */,
+				837211701762988B00D60D7A /* NSDVRSettings.m */,
+				83D423FF1767A1F000416906 /* flatremotestmall.png */,
 			);
 			path = DirectTVRemote;
 			sourceTree = "<group>";
@@ -158,6 +216,34 @@
 				83721157175E600B00D60D7A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A2B666177027740072623A /* DVR */ = {
+			isa = PBXGroup;
+			children = (
+				8372116C17622D9300D60D7A /* NSDVR.h */,
+				8372116D17622D9300D60D7A /* NSDVR.m */,
+				83A2B660176ED7A00072623A /* NSDVRGroup.h */,
+				83A2B661176ED7A00072623A /* NSDVRGroup.m */,
+				83A2B663177027630072623A /* NSDVRConnectionTester.h */,
+				83A2B664177027630072623A /* NSDVRConnectionTester.m */,
+			);
+			name = DVR;
+			sourceTree = "<group>";
+		};
+		83A2B66717702C310072623A /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				83721145175E600B00D60D7A /* UIViewControllerViewController.h */,
+				83721146175E600B00D60D7A /* UIViewControllerViewController.m */,
+				83721168175E80B100D60D7A /* UIControllerView.h */,
+				83721169175E80B100D60D7A /* UIControllerView.m */,
+				837211721762EE5A00D60D7A /* UISettingsView.h */,
+				837211731762EE5A00D60D7A /* UISettingsView.m */,
+				83A2B66817702C7B0072623A /* UIAddDVRViewController.h */,
+				83A2B66917702C7B0072623A /* UIAddDVRViewController.m */,
+			);
+			name = ViewsControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +319,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				83721135175E600B00D60D7A /* InfoPlist.strings in Resources */,
+				83D42409176A1B8200416906 /* flatremotetransparent.png in Resources */,
+				83D4240617691D1700416906 /* flatremotetransparentsmall.png in Resources */,
 				8372113D175E600B00D60D7A /* Default.png in Resources */,
+				83D4240A176A1B8200416906 /* flatremotetransparent@2x.png in Resources */,
+				83D424041767C23400416906 /* flatremotesmall.png in Resources */,
+				83D424001767A1F000416906 /* flatremotestmall.png in Resources */,
+				83D4240D176A1C8E00416906 /* 69-display.png in Resources */,
+				83D42411176A1D4000416906 /* 19-gear.png in Resources */,
+				83D424021767B3C100416906 /* flatremnobotesmall.png in Resources */,
 				8372113F175E600B00D60D7A /* Default@2x.png in Resources */,
 				83721141175E600B00D60D7A /* Default-568h@2x.png in Resources */,
 				83721144175E600B00D60D7A /* MainStoryboard.storyboard in Resources */,
@@ -273,7 +367,15 @@
 			files = (
 				83721137175E600B00D60D7A /* main.m in Sources */,
 				8372113B175E600B00D60D7A /* UIViewControllerAppDelegate.m in Sources */,
+				83A2B665177027630072623A /* NSDVRConnectionTester.m in Sources */,
 				83721147175E600B00D60D7A /* UIViewControllerViewController.m in Sources */,
+				83721167175E6B9300D60D7A /* UIRecieverLoader.m in Sources */,
+				83A2B66A17702C7B0072623A /* UIAddDVRViewController.m in Sources */,
+				8372116A175E80B100D60D7A /* UIControllerView.m in Sources */,
+				83A2B662176ED7A00072623A /* NSDVRGroup.m in Sources */,
+				8372116E17622D9300D60D7A /* NSDVR.m in Sources */,
+				837211711762988B00D60D7A /* NSDVRSettings.m in Sources */,
+				837211741762EE5A00D60D7A /* UISettingsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +437,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: chris mays (P8J6SWF9L8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chris mays (P8J6SWF9L8)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -366,7 +469,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: chris mays (P8J6SWF9L8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chris mays (P8J6SWF9L8)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -454,6 +558,7 @@
 				83721161175E600B00D60D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83721162175E600B00D60D7A /* Build configuration list for PBXNativeTarget "DirectTVRemoteTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +567,7 @@
 				83721164175E600B00D60D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

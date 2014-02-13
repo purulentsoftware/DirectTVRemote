@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface UIViewControllerViewController : UIViewController
-
+#import "UIRecieverLoader.h"
+#import "NSDVRGroup.h"
+@interface UIViewControllerViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIDynamicAnimatorDelegate, UIAlertViewDelegate>{
+    int currentIP;
+    UIRecieverLoader *loader;
+    NSMutableArray *ipAddresses;
+    UITableView *recievers;
+    UIGravityBehavior *behavior;
+    NSDVRGroup *group;
+}
+- (IBAction)refreshButtonPressed:(id)sender;
 @end
