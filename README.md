@@ -1,6 +1,8 @@
 DirectTVRemote
 ==============
 
+![ScreenShot](remote.png)
+
 DirecTV Remote for IOS
 
 I made this about a years ago, so the code is a little old. I plan on going back and fixing some of the code.  
@@ -11,4 +13,3 @@ This app searches for directv boxes on the network that have the network control
 
 This app is using glyphish's 200 free icons http://www.glyphish.com
 
-![ScreenShot](remote.png)
